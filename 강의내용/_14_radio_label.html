@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>라디오버튼과 label 태그</title>
+    <style>
+        ul {
+            list-style: none;
+        }
+        li {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <ul>
+                <li> <!--label 을 input을 감싸주면 체크할 때 글씨까지 영역이 넓혀짐-->
+                        <label>
+                            <input type="radio" name="subject" value="c">C언어
+                        </label>
+                </li>
+                <li>
+                        <label>
+                             <input type="radio" name="subject" value="java">Java
+                        </label>
+                </li>
+                <li>
+                        <label>
+                            <input type="radio" name="subject" value="python">Python
+                        </label>
+                </li>
+        
+        </ul>
+    </form>
+
+</body>
+</html>
